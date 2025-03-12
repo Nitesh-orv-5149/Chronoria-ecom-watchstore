@@ -1,5 +1,5 @@
 import React from 'react'
-import './NAvbox.css'
+import './Navbox.css'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
