@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+main {
+    overflow-y: hidden;
+}
+
+@media (max-width:600px) {
+    *{
+        scale: 1.02;
+    }
+}
+

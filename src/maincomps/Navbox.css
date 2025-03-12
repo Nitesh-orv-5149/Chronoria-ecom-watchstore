@@ -1,0 +1,17 @@
+#text button {
+    background: linear-gradient(180deg, var(--prim),var(--dbrown));
+    border-radius: 4rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+#text button:hover {
+    transition: color;
+    background: var(--sec);
+    transform: scaleX(1.1);
+}
+
+@media (min-width:1024px) {
+    body {
+        scale:1;
+    }   
+}

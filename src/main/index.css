@@ -1,0 +1,25 @@
+:root {
+    --dark : #222222;
+    --prim : #DAAB00;
+    --sec : #ECC836;
+    --light : #FFF6BB;
+    --lbrown : #855C2D;
+    --dbrown : #674019;
+}
+
+
+@font-face {
+    font-family: 'soft-quota';
+    src: url('/public/fonts/soft-quota.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .font-soft-quota {
+    font-family: 'soft-quota' !important ;
+    font-weight: 900 !important;
+    font-size: 3rem;
+  }
+
+
+  

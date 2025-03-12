@@ -1,0 +1,22 @@
+form > input {
+    background-color: var(--sec);
+    width: 30rem;
+    color: var(--dark);
+    border-radius: 5rem;
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+@media (max-width : 600px) {
+    body {
+        scale: 0.7;
+    }
+}
+@media (max-width : 350px) {
+    body {
+        scale: 0.5;
+    }
+}
